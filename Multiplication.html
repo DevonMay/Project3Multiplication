@@ -1,0 +1,63 @@
+<html>
+	<head>
+	<style>
+    body { background-color: #003106; }
+	th {text-align: center;}
+	td {text-align: center; padding: 5px;}
+	table {border-spacing: 15px;}
+	h2 {color: white;}
+		
+  </style>
+	</head>
+		<title></title>
+		<link href="Multiplicationstyle.css">
+		<script defer src="Multiplicationscript.js"></script>
+		<body>
+			
+			<center>
+			<table style="width:10%" "height:10%">
+  <tr>
+  <p><br></p>
+  <p><br></p>
+  <p><br></p>
+  <p><br></p>
+  <p><br></p>
+   <h1 style="color:Black;">Multiplication</h1>
+    
+  </tr>
+  <tr>
+  <div id="questiontitle" 
+       style="color: black;
+       padding: 5px;
+       font-size: large;" + currentQuestionIndex>Question</div>
+    <br>
+    <div class="container">
+        <div id="question-container" class="hide">
+          <div id="question"
+          style=" display: grid;
+          place-items: center;
+          color: black;
+          padding: 5px;
+          font-size: large;">Question</div><br>   
+          <div id="answer-buttons" class="btn-grid">
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn">4</button>
+          </div>
+        </div>
+          <div id ="reusult-container" class="result-card hide">
+            <div id="results">Your Results:</div><br><br>
+            <div id="score" style="margin-bottom: 100px;">Score:</div>
+            <a href="Multiplication.html"><button id="restart-btn" class="btn">Restart</button></a><br><br>
+          </div>
+        <div class="controls">
+            <button id="start-btn" class="btn">Start</button>
+            <button id="next-btn" class="btn hide">Next</button>
+          </div>
+		  </tr>
+  
+</table>
+</center>
+		</body>		
+</html>
